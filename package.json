@@ -1,0 +1,10 @@
+{
+  "name": "docker-nodejs-oneagent-embebed",
+  "version": "1.0.0",
+  "description": "This image will contain oneagent, need to update the Dockerfile to make reference to your environment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rodrigo Alvarez"
+}

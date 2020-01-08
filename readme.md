@@ -13,6 +13,6 @@ First, checkout this project locally and then follow these steps:
 - Log in to Docker with your Dynatrace environment ID as username and PaaS token as password.
    `docker login -u <environmentID> <your_URL>`
 - Build the Docker image: `docker build -t hello-world .`
-- Run the image `docker run -d -p 3000:3000 hello-world`
+- Run the image `docker run -d -p 3000:80 hello-world`
 - Access to the app running `http://$(docker-machine ip default):3000`
 
